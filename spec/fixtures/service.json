@@ -1,0 +1,17 @@
+{
+  "name": "my-test-service",
+  "route": {
+    "method": "GET",
+    "path": "/my-test-service",
+    "headers": null,
+    "params": null,
+    "body": null
+  },
+  "handler": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/text"
+    },
+    "body": "{ \"content\": \"this is some content\" }"
+  }
+}
